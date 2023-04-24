@@ -22,3 +22,9 @@ staged changes and create a version out of it.
 
 8.'git commit --m ""' -registers staging changes to a commmit
 
+9.'git log' -list down all the commits of the repository.if you want to exit from git log press 'q'
+
+10 .'git restore <file> -it removes all files changes from the staging area to be committed.This 
+can be useful , if we did some dirty piece of code and now no more want it.instead of deleting any 
+change line by line .we can restore it or you can say restore last clean version of the file .
+
