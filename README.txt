@@ -35,3 +35,8 @@ this only works if changes are in your staging area
 ans : if you want to move the whole file back to the untracked state, then we do git rm, otherwise if 
 we just want the changes to be moved in working area or staging area then we 'git restore' 
 
+13.'git commit -m " Message" - If we want to avoid opening vim/nano editor to add this following
+command.
+
+
+
