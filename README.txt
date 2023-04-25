@@ -35,8 +35,23 @@ this only works if changes are in your staging area
 ans : if you want to move the whole file back to the untracked state, then we do git rm, otherwise if 
 we just want the changes to be moved in working area or staging area then we 'git restore' 
 
-13.'git commit -m " Message" - If we want to avoid opening vim/nano editor to add this following
+13.'git diff commit1 commit2' -give the difference of all files changes between two commits
+
+14.'git commit -m " Message" - If we want to avoid opening vim/nano editor to add this following
 command.
+
+15.'git remote' - list down all the remote connection names.
+
+16.remote connection - it helps you to link two git repositories for uploading and downloading changes 
+for each others.
+
+17. 'git remote add <name of the remote> - this comand helps us to add a new link to the remote 
+repository.
+
+18. 'git remote rm <name of the remotes> - this commmand deletes the remote connection
+
+19. 'git remote rename <olname> <new name> - this command is used to renames the remote connection
+
 
 
 
